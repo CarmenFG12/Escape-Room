@@ -1,0 +1,193 @@
+import matplotlib.pyplot as plt
+from skimage import io
+
+imagen1=plt.imread("correcta1.png")
+imagen2=plt.imread("incorrecta1.png")
+imagen3=plt.imread("correcta2.png")
+imagen4=plt.imread("incorrecta2.png")
+imagen5=plt.imread("correcta3.png")
+imagen6=plt.imread("incorrecta3.png")
+
+print ("Número de grupo:")
+grupo=int(input())
+    
+print ("Número de prueba:")
+prueba=int(input())
+
+print ("Respuesta (si es para la primera prueba escibirlo de la forma (x,y,z)):")
+resp=input()
+
+
+if grupo==1:
+    if prueba==1:
+        if resp=="3,7,1" or resp=="3,1,7" or resp=="1,3,7" or resp=="1,7,3" or resp=="7,1,3" or resp=="7,3,1":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="21":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
+    
+if grupo==2:
+    if prueba==1:
+        if resp=="4,1,9" or resp=="4,9,1" or resp=="1,4,9" or resp=="1,9,4" or resp=="9,4,1" or resp=="9,1,4":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="28":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
+  
+if grupo==3:
+    if prueba==1:
+        if resp=="5,8,0" or resp=="5,0,8" or resp=="8,5,0" or resp=="8,0,5" or resp=="0,8,5" or resp=="0,5,8":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="14":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
+     
+if grupo==4:
+    if prueba==1:
+        if resp=="9,2,6" or resp=="9,6,2" or resp=="2,9,6" or resp=="2,6,9" or resp=="6,2,9" or resp=="6,9,2":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="7":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
+
+if grupo==5:
+    if prueba==1:
+        if resp=="0,6,10" or resp=="0,10,6" or resp=="10,0,6" or resp=="10,6,0" or resp=="6,10,0" or resp=="6,0,10":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="26":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
+
+if grupo==6:
+    if prueba==1:
+        if resp=="10,5,3" or resp=="10,3,5" or resp=="5,3,10" or resp=="5,10,3" or resp=="3,5,10" or resp=="3,10,5":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen1,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen2,vmin=0,vmax=1)
+    if prueba==2:
+        if resp=="13":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen3,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen4,vmin=0,vmax=1)
+    if prueba==3:
+        if resp=="Oculta el bien que haces, imita al Nilo que oculta su fuente.":
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen5,vmin=0,vmax=1)
+        else:
+            plt.xticks([]), plt.yticks([])
+            plt.show()
+            plt.imshow(imagen6,vmin=0,vmax=1)
